@@ -1,0 +1,159 @@
+/* css files add styling rules to your content */
+
+body {
+    margin: 0cm;
+      
+}
+
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+         
+h3{  
+    font-family: 'Merienda One', cursive;
+    color: brown;    
+}
+
+h1 {
+    font-family: "Homer Simpson UI";
+    color: rgb(167, 125, 36);
+    font-weight: 530;
+    font-size: 45pt; 
+    margin: 9pt;
+}
+
+.cover {
+    height: 550px;
+    background-image: url(file:///C:/Users/alell/Desktop/rsz_thomas-mauch-lxf1lq1faoe-unsplash.jpg);   
+    color: white;
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken ;
+}
+
+ .card{
+    border: 0 !important;
+    box-shadow: 0 8px 6px -1px rgb(250, 184, 2), 0 2px 4px -1px rgba(0, 39, 167, 0.6);
+ }
+
+p1 {
+    color: rgb(204, 152, 7);
+    margin: 30pt;
+    font-weight: 800;
+    font-family: 'Source Serif Pro', serif;
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+
+}
+
+p2 {
+    color:rgb(163, 152, 0);
+    margin: 0cm;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cover-small{    
+    height:170px;
+    background-blend-mode: darken;
+ }
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(255, 166, 0, 0.966), 0  2px 4px -1px rgba(255, 166, 0, 0.966);
+
+}
+
+.card-title{
+    min-height:3rem;
+}
+.card-text{
+    min-height:10rem;
+}
+
+.product-stripe, .slider{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.stripe-container, slider-container{
+    display: flex;
+}
+
+.stripe-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.responsive-iframe{
+   position:relative;
+   padding-top: 56.25%;
+}
+
+.responsive-iframe iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 70%;
+    height: 70%;
+    
+}
+   
+.slider{
+    overflow-x: hidden;
+
+}
+
+.slider-container{
+     transform: translateX(0);
+     animation: alider 20s infinite;
+}   
+
+
+.image-container{
+    width: 90%;
+    padding-top: 56.25%;
+    background-size:cover;
+    background-position: inherit;
+    flex-shrink: 0;
+}
+
+@keyframes slider{
+    0%{
+      transform: translateX(0);
+    }
+    20%{ 
+      transform: translateX(0%);  
+    } 
+    25%{
+      transform: translateX(-100%);
+    }
+    45%{
+      transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    70%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    95%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
