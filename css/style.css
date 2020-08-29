@@ -18,7 +18,7 @@ h3{
 
 h1 {
     font-family: "Homer Simpson UI";
-    color: rgb(167, 125, 36);
+    color: rgb(204, 152, 7); 
     font-weight: 530;
     font-size: 45pt; 
     margin: 9pt;
@@ -26,7 +26,7 @@ h1 {
 
 .cover {
     height: 550px;
-    background-image: url(file:///C:/Users/alell/Desktop/rsz_thomas-mauch-lxf1lq1faoe-unsplash.jpg);   
+    background-image: url(../imagenes/rsz_thomas-mauch-lxf1lq1faoe-unsplash.jpg);   
     color: white;
     background-color:rgb(255, 255, 255);
     background-size: cover;
@@ -39,9 +39,10 @@ h1 {
     box-shadow: 0 8px 6px -1px rgb(250, 184, 2), 0 2px 4px -1px rgba(0, 39, 167, 0.6);
  }
 
+
 p1 {
     color: rgb(204, 152, 7);
-    margin: 30pt;
+    margin: 90pt;
     font-weight: 800;
     font-family: 'Source Serif Pro', serif;
     font-size: xx-large;
@@ -59,6 +60,13 @@ p2 {
 
 h4 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 11cm;
+    margin-block-start: 5cm;
+}
+
+p {
+    margin-left: 11cm;
+    margin-block-start;: 5cm<;
 }
 
 .cover-small{    
@@ -93,11 +101,13 @@ h4 {
     width: 300px;
     flex-shrink: 0;
     margin-right: 1rem;
+
 }
 
 .responsive-iframe{
    position:relative;
    padding-top: 56.25%;
+   margin-left: 6cm;
 }
 
 .responsive-iframe iframe{
